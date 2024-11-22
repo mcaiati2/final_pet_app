@@ -9,9 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  env:
-    JWT_SECRET: ${{ secrets.JWT_SECRET }}
-    MONGODB_URL: ${{ secrets.MONGODB_URL }}
+    env:
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      MONGODB_URL: ${{ secrets.MONGODB_URL }}
 
     steps:
     - name: Checkout code
