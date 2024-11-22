@@ -14,8 +14,6 @@ jobs:
       MONGODB_URL: ${{ secrets.MONGODB_URL }}
       PORT: ${{ secrets.PORT }}
 
-      
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
