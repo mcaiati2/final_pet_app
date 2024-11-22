@@ -12,6 +12,9 @@ jobs:
     env:
       JWT_SECRET: ${{ secrets.JWT_SECRET }}
       MONGODB_URL: ${{ secrets.MONGODB_URL }}
+      PORT: ${{ secrets.PORT }}
+
+      
 
     steps:
     - name: Checkout code
